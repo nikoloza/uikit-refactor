@@ -28,8 +28,6 @@ export const mapBasedOnRatio = (props, prop) => {
 }
 
 export const Block = {
-  style,
-
   props: {},
 
   class: {

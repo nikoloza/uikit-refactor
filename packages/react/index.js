@@ -2,6 +2,7 @@
 
 export * from '@symbo.ls/scratch-init'
 
+export * from '@symbo.ls/react-responsive'
 export * from '@symbo.ls/react-text'
 export * from '@symbo.ls/react-block'
 export * from '@symbo.ls/react-shape'

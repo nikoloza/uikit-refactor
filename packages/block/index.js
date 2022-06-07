@@ -1,7 +1,6 @@
 'use strict'
 
 import { SPACING, mapSpacing } from '@symbo.ls/scratch'
-import style from './style'
 
 export const mapBasedOnRatio = (props, prop) => {
   const { spacingRatio } = props
@@ -34,6 +33,8 @@ export const Block = {
   props: {},
 
   class: {
+    display: ({ props }) => ({ display: props.display }),
+
     width: ({ props }) => props.width && mapBasedOnRatio(props, 'width'),
     height: ({ props }) => props.height && mapBasedOnRatio(props, 'height'),
     boxSize: ({ props }) => {
@@ -85,6 +86,12 @@ export const Block = {
         alignItems: alignItems,
         justifyContent: justifyContent
       }
+    },
+    flex: ({ props }) => props.flex && ({ flex: props.flex }),
+
+    size: ({ props }) => {
+      // if (typeof props.size !== 'string') return
+      // const [fontSize, padding, margin] = props.size.split(' ')
     }
   }
 }

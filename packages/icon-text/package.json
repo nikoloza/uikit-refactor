@@ -1,10 +1,10 @@
 {
   "name": "@symbo.ls/icon-text",
-  "version": "0.6.21",
+  "version": "0.6.23",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@symbo.ls/block": "^0.6.21",
+    "@symbo.ls/block": "^0.6.23",
     "@symbo.ls/direction": "^0.6.21",
     "@symbo.ls/icon": "^0.6.21",
     "@symbo.ls/text": "^0.6.21"

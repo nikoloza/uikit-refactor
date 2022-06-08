@@ -5,7 +5,7 @@
   "license": "MIT",
   "gitHead": "f6e4efc2a41edd241f470c5704b5849c8bb41f2b",
   "dependencies": {
-    "@symbo.ls/config-default": "^0.6.21",
+    "@symbo.ls/config-default": "latest",
     "@symbo.ls/scratch": "^0.3.6",
     "domql": "latest"
   },

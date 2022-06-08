@@ -6,7 +6,7 @@
   "gitHead": "f6e4efc2a41edd241f470c5704b5849c8bb41f2b",
   "dependencies": {
     "@symbo.ls/label": "^0.6.24",
-    "@symbo.ls/transform-react": "^0.6.21"
+    "@symbo.ls/transform-react": "latest"
   },
   "source": "src/index.js"
 }

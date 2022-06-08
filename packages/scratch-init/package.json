@@ -1,13 +1,13 @@
 {
   "name": "@symbo.ls/scratch-init",
-  "version": "0.6.21",
+  "version": "0.6.24",
   "main": "index.js",
   "license": "MIT",
   "gitHead": "f6e4efc2a41edd241f470c5704b5849c8bb41f2b",
   "dependencies": {
-    "domql": "latest",
     "@symbo.ls/config-default": "^0.6.21",
-    "@symbo.ls/scratch": "^0.3.6"
+    "@symbo.ls/scratch": "^0.3.6",
+    "domql": "latest"
   },
   "source": "src/index.js"
 }
